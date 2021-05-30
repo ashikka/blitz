@@ -7,6 +7,7 @@ const mocks = multiMock(
   {
     "next-utils": {
       nextStartDev: jest.fn().mockReturnValue(Promise.resolve()),
+      startCustomServer: jest.fn().mockReturnValue(Promise.resolve()),
       nextBuild: jest.fn().mockReturnValue(Promise.resolve()),
     },
     "resolve-bin-async": {
