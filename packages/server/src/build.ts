@@ -36,8 +36,13 @@ export async function build(config: ServerConfig) {
   })
 
   await saveBlitzVersion(buildFolder)
-  await startCustomServer(buildFolder, config, {watch}, true)
   await nextBuild(nextBin, buildFolder, manifest, config)
+
+  try {
+    await startCustomServer(rootFolder, config, {watch}, true)
+  } catch (e) {
+    console.log("No custom server found, proceeding")
+  }
 
   const rootNextFolder = resolve(rootFolder, ".next")
   const buildNextFolder = resolve(buildFolder, ".next")
