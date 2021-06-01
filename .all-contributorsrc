@@ -2694,6 +2694,34 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "guoqqqi",
+      "name": "guoqqqi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72343596?v=4",
+      "profile": "https://github.com/guoqqqi",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "timbooker",
+      "name": "Tim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/612681?v=4",
+      "profile": "https://github.com/timbooker",
+      "contributions": [
+        "code",
+        "test"
+      ]
+    },
+    {
+      "login": "ormarek",
+      "name": "Marek Orłowski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16357457?v=4",
+      "profile": "http://orlowski.me/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

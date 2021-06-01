@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@prisma/client": "2.19.0",
-    "blitz": "0.35.2",
+    "blitz": "0.36.3",
     "final-form": "4.20.1",
     "passport-auth0": "1.4.0",
     "passport-github2": "0.1.12",
@@ -39,7 +39,7 @@
     "react-dom": "0.0.0-experimental-6a589ad71",
     "react-error-boundary": "3.1.1",
     "react-final-form": "6.5.2",
-    "zod": "1.11.11"
+    "zod": "3.0.2"
   },
   "devDependencies": {
     "@cypress/skip-test": "2.6.0",
